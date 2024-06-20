@@ -8,6 +8,8 @@ import Descricao from './components/Descricao'
 import Cachorro from './components/Cachorro'
 import Counter from './components/Counter'
 import UserInfoForm from './components/UserInfoForm'
+import Button from './components/Button'
+import PaiFunc from './components/PaiFunc'
 
 function App() {
   return (
@@ -27,6 +29,10 @@ function App() {
       <Counter />
       {/* Multiplos estados */}
       <UserInfoForm/>
+      {/* Evento */}
+      <Button/>
+      {/* Passando funções de manipulação de eventos com props */}
+      <PaiFunc/>
     </>
   )
 }
